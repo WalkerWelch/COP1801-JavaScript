@@ -67,6 +67,7 @@ for (let i = 0; i < dogs.length; i++) {
     }
 }
 
+// Checking error message for bad user input
 if (selectedDog) {
     selectedDog.myGreeting();
 } else {
